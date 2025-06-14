@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan rudi & mawar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1>The Wedding Of</h1>
+            <h2>febrian & anisa</h2>
+            <p class="date">Tanggal Pernikahan, 30 Agustus 2025</p>
+            <p class="to-guest">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+            <p class="guest-name">(akan diisi via JavaScript atau URL Param)]</p>
+            <button id="open-invite">Buka Undangan</button>
+        </header>
+
+        <section id="main-content" class="main-content hidden">
+            <p class="opening-text">Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan putra-putri kami:</p>
+
+            <div class="couple-info">
+                <div class="person">
+                    <h3>febrian</h3>
+                    <p>Putra Pertama dari Bapak Ahmad Takbir & Ibu Dini</p>
+                </div>
+                <span class="and-symbol">&</span>
+                <div class="person">
+                    <h3>Anisa</h3>
+                    <p>Putri dari Bapak munawar & Ibu melati</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="event-details">
+                <h2>Akad Nikah</h2>
+                <p><strong>Hari, Tanggal:</strong> 30 agustus 2025</p>
+                <p><strong>Waktu:</strong> 09:00 WIB</p>
+                <p><strong>Tempat:</strong>rumah kediaman mempelai wanita</p>
+                <a href="[Link Google Maps Akad]" target="_blank" class="btn-map">Lihat Lokasi</a>
+
+                <h2>Resepsi</h2>
+                <p><strong>Hari, Tanggal:</strong> Sabtu, 30 Agustus 2025</p>
+                <p><strong>Waktu:</strong> 08:00 WIB</p>
+                <p><strong>Tempat:</strong> kediaman mempelai Perempuan</p>
+                <a href="https://www.google.com/maps/place/Kota+Cinema+Mall+(KCM)+Jatiasih/@-6.3061653,106.9536324,13.5z/data=!4m6!3m5!1s0x2e69928ab7c1742b:0x542e01cb3e831e9!8m2!3d-6.3145546!4d106.9582014!16s%2Fg%2F11c2pkg1_p?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-map">Lihat Lokasi</a>
+            </div>
+
+            <hr>
+
+            <div class="countdown-section">
+                <h2>Menuju Hari Bahagia</h2>
+                <div id="countdown" class="countdown">
+                    <div><span id="days"></span>hari</div>
+                    <div><span id="hours"></span> jam</div>
+                    <div><span id="minutes"></span>menit</div>
+                    <div><span id="seconds"></span>detik</div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="gallery">
+                <h2>Galeri Kami</h2>
+                <div class="image-grid">
+                    <img src="foto7.jpeg" alt="Foto Pernikahan 1">
+                    <img src="foto8.jpeg" alt="Foto Pernikahan 2">
+                    <img src="foto9.jpeg" alt="Foto Pernikahan 3">
+                    <img src="foto7.jpeg" alt="Foto Pernikahan 4">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="wedding-gift">
+                <h2>Hadiah Pernikahan</h2>
+                <p>Doa restu Anda adalah karunia terindah bagi kami. Namun, jika Anda berkenan memberikan tanda kasih, Anda bisa mengirimkannya melalui:</p>
+                <p><strong>Bank:</strong> BCA</p>
+                <p><strong>No. Rekening:</strong> 93106276</p>
+                <p><strong>Atas Nama:</strong> ANISA</p>
+            </div>
+
+            <div class="rsvp-section">
+                <h2>Konfirmasi Kehadiran</h2>
+                <p>Mohon konfirmasi kehadiran Anda agar kami dapat mempersiapkan segala sesuatunya dengan baik.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeQBcrF6b7RLXbE_iz6O501OrtRQ_lsgkNW8C59ljm6wbESg/viewform?usp=header" target="_blank" class="btn-rsvp">Konfirmasi Kehadiran</a>
+                <p class="rsvp-note">Mohon isi form tersebut selambat-lambatnya pada 29 Agustus 2025.</p>
+            </div>
+            <hr>
+
+            <hr>
+
+            <div class="closing">
+                <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+                <p>Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+                <h3>Hormat Kami,</h3>
+                <h3>FEBRIAN & ANISA FAJRI</h3>
+            </div>
+        </section>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="WANGI RINDU.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
